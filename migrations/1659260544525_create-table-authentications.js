@@ -12,5 +12,5 @@ exports.up = (pgm) => {
 };
 
 exports.down = (pgm) => {
-  pgm.dropAuthentications('authentications');
+  pgm.dropTable('authentications');
 };
