@@ -25,5 +25,5 @@ exports.up = (pgm) => {
 };
 
 exports.down = (pgm) => {
-  pgm.dropUsers('users');
+  pgm.dropTable('users');
 };
